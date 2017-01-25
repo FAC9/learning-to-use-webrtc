@@ -17,7 +17,8 @@ The following comes directly from the [webrtc-adapter github repo](https://githu
 > + adapter_no_edge.js - same as above but does not include the Microsoft Edge (ORTC) shim.
 > + adapter_no_edge_no_global.js - same as above but is not exposed/visible in the browser (you cannot call/interact with the shims in the browser).
 > + adapter_no_global.js - same as adapter.js but is not exposed/visible in the browser (you cannot call/interact with the shims in the browser).
-> **Include the file that suits your need in your project.**
+
+> Include the file that suits your need in your project.
 
 i.e. copy the file: `node_modules/webrtc-adapter/out/adapter.js` to `public/adapter.js`
 
