@@ -1,0 +1,11 @@
+.caller {
+  display: inline-block;
+  width: 45%;
+  margin: 5px;
+  text-align: center;
+}
+
+.video {
+  height: 220px;
+  width: 100%;
+}

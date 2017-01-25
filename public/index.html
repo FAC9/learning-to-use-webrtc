@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebRTC Workshop</title>
+    <link rel='stylesheet' href='main.css'>
+  </head>
+  <body>
+
+    <div id="caller1" class="caller">
+      <video class="video"></video>
+      <button class="call">Call</button>
+      <select name="receiver" class="dropdown">
+        <option value="2">Caller 2</option>
+        <option value="3">Caller 3</option>
+        <option value="4">Caller 4</option>
+      </select>
+      <button class="end">End call</button>
+    </div>
+
+    <div id="caller2" class="caller">
+      <video class="video"></video>
+      <button class="call">Call</button>
+      <select name="receiver" class="dropdown">
+        <option value="1">Caller 1</option>
+        <option value="3">Caller 3</option>
+        <option value="4">Caller 4</option>
+      </select>
+      <button class="end">End call</button>
+    </div>
+
+    <div id="caller3" class="caller">
+      <video class="video"></video>
+      <button class="call">Call</button>
+      <select name="receiver" class="dropdown">
+        <option value="1">Caller 1</option>
+        <option value="2">Caller 2</option>
+        <option value="4">Caller 4</option>
+      </select>
+      <button class="end">End call</button>
+    </div>
+
+    <div id="caller4" class="caller">
+      <video class="video"></video>
+      <button class="call">Call</button>
+      <select name="receiver" class="dropdown">
+        <option value="1">Caller 1</option>
+        <option value="2">Caller 2</option>
+        <option value="3">Caller 3</option>
+      </select>
+      <button class="end">End call</button>
+    </div>
+
+    <script type="text/javascript" src="adapter.js"></script>
+
+  </body>
+</html>
