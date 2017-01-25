@@ -1,0 +1,26 @@
+{
+  "name": "webrtc-yet-again",
+  "version": "1.0.0",
+  "description": "Start by generating key/cert pairs for HTTPS server: + openssl genrsa -out key.pem 2048 + openssl req -new -key key.pem -out csr.pem + openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem + rm csr.pem",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAC9/webrtc-yet-again.git"
+  },
+  "author": "jsms90",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FAC9/webrtc-yet-again/issues"
+  },
+  "homepage": "https://github.com/FAC9/webrtc-yet-again#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "webrtc-adapter": "^3.1.0"
+  }
+}
